@@ -1,72 +1,61 @@
-const imageCount = 6;
-const images = [];
-let currentIndex = 0;
-let intervalId = null;
-
-const mainImage = document.getElementById("main-image");
-const imageName = document.getElementById("image-name");
-const resolution = document.getElementById("resolution");
-const downloadBtn = document.getElementById("download-btn");
-const thumbnailsContainer = document.getElementById("thumbnails-container");
-
-async function fetchImageUrl() {
-  const res = await fetch("https://api.18xo.eu.org/random?type=img");
-  return res.url;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
 }
 
-async function loadImages() {
-  for (let i = 0; i < imageCount; i++) {
-    const url = await fetchImageUrl();
-    images.push({
-      name: `壁纸 ${i + 1}`,
-      url,
-      thumbnail: url
-    });
-  }
-
-  renderThumbnails();
-  updateImage(0);
-  startAutoPlay();
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  margin: auto;
 }
 
-function updateImage(index) {
-  const imgData = images[index];
-  mainImage.src = imgData.url;
-  imageName.textContent = imgData.name;
-  downloadBtn.href = imgData.url;
-
-  const tempImg = new Image();
-  tempImg.onload = () => {
-    resolution.textContent = `${tempImg.width}×${tempImg.height}`;
-  };
-  tempImg.src = imgData.url;
+.carousel img {
+  width: 100%;
+  max-height: 1080px;
+  object-fit: cover;
 }
 
-function renderThumbnails() {
-  thumbnailsContainer.innerHTML = "";
-  images.forEach((img, index) => {
-    const thumb = document.createElement("img");
-    thumb.src = img.thumbnail;
-    thumb.alt = img.name;
-    thumb.onclick = () => {
-      currentIndex = index;
-      updateImage(index);
-      restartAutoPlay();
-    };
-    thumbnailsContainer.appendChild(thumb);
-  });
+.info {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
 }
 
-function startAutoPlay() {
-  intervalId = setInterval(() => {
-    currentIndex = (currentIndex + 1) % images.length;
-    updateImage(currentIndex);
-  }, 5000);
+#download-btn {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 10px 15px;
+  background-color: #1e90ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
-function restartAutoPlay() {
-  clearInterval(intervalId);
-  startAutoPlay();
+.thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #111;
+  padding: 10px;
 }
 
-loadImages();
+.thumbnails img {
+  width: 200px;
+  height: auto;
+  margin: 5px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.thumbnails img:hover {
+  border-color: #1e90ff;
+}
+
+footer {
+  background-color: #000;
+  color: #aaa;
+  padding: 20px 0;
+}
