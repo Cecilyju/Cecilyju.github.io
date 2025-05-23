@@ -25,20 +25,38 @@ header p {
     margin-top: 0.5rem;
 }
 
-footer {
-    margin-top: 2rem;
+/* --- 新增：筛选按钮样式 --- */
+.filter-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    padding: 1.5rem 1rem;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.filter-btn {
+    background-color: #e9ecef;
+    color: #495057;
+    border: none;
+    border-radius: 20px;
+    padding: 0.6rem 1.2rem;
     font-size: 0.9rem;
-    color: #888;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-footer a {
-    color: #007bff;
-    text-decoration: none;
+.filter-btn:hover {
+    background-color: #d8dee4;
 }
 
-footer a:hover {
-    text-decoration: underline;
+.filter-btn.active {
+    background-color: #007bff;
+    color: #ffffff;
 }
+
 
 /* --- 加载动画 --- */
 .loading {
