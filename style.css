@@ -1,0 +1,128 @@
+/* --- 全局样式 --- */
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+    margin: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* --- 头部和尾部 --- */
+header, footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+}
+
+header p {
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+footer {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* --- 加载动画 --- */
+.loading {
+    text-align: center;
+    padding: 5rem 1rem;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #e0e0e0;
+    border-top-color: #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 1rem;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* --- 壁纸画廊 --- */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.wallpaper-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.wallpaper-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.wallpaper-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.wallpaper-info {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.wallpaper-name {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.download-btn {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    text-align: center;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+}
