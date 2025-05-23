@@ -1,50 +1,37 @@
 [
   {
-    "name": "AI-AI少女",
-    "url": "https://api.18xo.eu.org/file/1748010065590_【哲风壁纸】AI-AI少女.png"
+    "name": "M八重神子",
+    "url": "https://api.18xo.eu.org/file/1748010033600_【哲风壁纸】八重神子-原神-海滩.png",
+    "category": "原神"
   },
   {
-    "name": "休憩-动漫-动漫壁纸",
-    "url": "https://api.18xo.eu.org/file/1748010056578_【哲风壁纸】休憩-动漫-动漫壁纸.png"
+    "name": "F神子",
+    "url": "https://api.18xo.eu.org/file/1748010034219_【哲风壁纸】少女-氛围-神子.png",
+    "category": "少女"
   },
   {
-    "name": "动漫-动漫壁纸-居家",
-    "url": "https://api.18xo.eu.org/file/1748010051760_【哲风壁纸】动漫-动漫壁纸-居家.png"
+    "name": "室内少女",
+    "url": "https://api.18xo.eu.org/file/1748010035613_【哲风壁纸】休闲-室内-少女.png",
+    "category": "休闲"
   },
   {
-    "name": "二次元美女-夜景人像",
-    "url": "https://api.18xo.eu.org/file/1748010050594_【哲风壁纸】二次元美女-夜景人像.png"
+    "name": "室内场景",
+    "url": "https://api.18xo.eu.org/file/1748010042044_【哲风壁纸】休闲姿态-室内场景.png",
+    "category": "休闲姿态"
   },
   {
-    "name": "听歌女孩-听歌的女孩",
-    "url": "https://api.18xo.eu.org/file/1748010054091_【哲风壁纸】听歌女孩-听歌的女孩.png"
+    "name": "夏日",
+    "url": "https://api.18xo.eu.org/file/1748010036566_【哲风壁纸】动漫-动漫壁纸-夏日.png",
+    "category": "动漫"
   },
   {
-    "name": "夜景背景-少女壁纸",
-    "url": "https://api.18xo.eu.org/file/1748010047267_【哲风壁纸】夜景背景-少女壁纸.png"
+    "name": "比基尼美女",
+    "url": "https://api.18xo.eu.org/file/1748010037519_【哲风壁纸】性感美女-比基尼美女.png",
+    "category": "性感美女"
   },
   {
-    "name": "室内场景-性感造型",
-    "url": "https://api.18xo.eu.org/file/1748010055601_【哲风壁纸】室内场景-性感造型.png"
-  },
-  {
-    "name": "休闲美女-圣诞树",
-    "url": "https://api.18xo.eu.org/file/1748010050940_【哲风壁纸】休闲美女-圣诞树.png"
-  },
-  {
-    "name": "性感美女-比基尼美女",
-    "url": "https://api.18xo.eu.org/file/1748010037519_【哲风壁纸】性感美女-比基尼美女.png"
-  },
-  {
-    "name": "动漫-动漫壁纸-夏日",
-    "url": "https://api.18xo.eu.org/file/1748010036566_【哲风壁纸】动漫-动漫壁纸-夏日.png"
-  },
-  {
-    "name": "休闲姿态-室内场景",
-    "url": "https://api.18xo.eu.org/file/1748010042044_【哲风壁纸】休闲姿态-室内场景.png"
-  },
-  {
-    "name": "休闲-室内-少女",
-    "url": "https://api.18xo.eu.org/file/1748010035613_【哲风壁纸】休闲-室内-少女.png"
+    "name": "圣诞树",
+    "url": "https://api.18xo.eu.org/file/1748010050940_【哲风壁纸】休闲美女-圣诞树.png",
+    "category": "休闲美女"
   }
 ]
