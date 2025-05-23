@@ -12,6 +12,30 @@ const images = [
     url: "https://api.18xo.eu.org/file/1748010033600_【哲风壁纸】八重神子-原神-海滩.png"
   },
   {
+    name: "坐姿女孩",
+    url: "https://api.18xo.eu.org/file/1748026924484_【哲风壁纸】坐姿女孩-女孩.png"
+  },
+  {
+    name: "室内 少女",
+    url: "https://api.18xo.eu.org/file/1748026924383_【哲风壁纸】休闲-室内-少女.png"
+  },
+  {
+    name: "居家氛围 极品",
+    url: "https://api.18xo.eu.org/file/1748026918485_【哲风壁纸】居家氛围-极品.png"
+  },
+  {
+    name: "室内摄影 极品",
+    url: "https://api.18xo.eu.org/file/1748026909774_【哲风壁纸】室内摄影-极品.png"
+  },
+  {
+    name: "唯美 梦幻 绯色",
+    url: "https://api.18xo.eu.org/file/1748026917119_【哲风壁纸】唯美-梦幻-绯色.png"
+  },
+  {
+    name: "休憩时光 卧室 女孩",
+    url: "https://api.18xo.eu.org/file/1748026911331_【哲风壁纸】休憩时光-卧室-女孩.png"
+  },
+  {
     name: "少女神子",
     url: "https://api.18xo.eu.org/file/1748010034219_【哲风壁纸】少女-氛围-神子.png"
   },
@@ -180,6 +204,57 @@ const images = [
   {
     name: "Cosplay 少女",
     url: "https://api.18xo.eu.org/file/1747807676803_46844.png"
+  },
+  {
+    name: "狼耳 少女",
+    url: "https://api.18xo.eu.org/file/1747807481435_37311.png"
+  },
+  {
+    name: "机车 少女",
+    url: "https://api.18xo.eu.org/file/1747807488503_47771.png"
+  },
+  {
+    name: "神里绫华",
+    url: "https://api.18xo.eu.org/file/1747555361809_神里绫华_书_原神4k高清壁纸_彼岸图网.jpg"
+  },
+  {
+    name: "优雅女性",
+    url: "https://api.18xo.eu.org/file/1748026928979_【哲风壁纸】优雅女性-室内环境.png"
+  },
+  {
+    name: "动漫风格女孩",
+    url: "https://api.18xo.eu.org/file/1748026924046_【哲风壁纸】动漫风格女孩-卧室背景画面.png"
+  },
+  {
+    name: "MM 少女",
+    url: "https://api.18xo.eu.org/file/1748026910681_【哲风壁纸】MM-少女-少女壁纸.png"
+  },
+  {
+    name: "佳人 古风 唯美",
+    url: "https://api.18xo.eu.org/file/1748026907970_【哲风壁纸】佳人-古风-唯美形象.png"
+  },
+  {
+    name: "动漫 美少女",
+    url: "https://api.18xo.eu.org/file/1747807444328_37020.png"
+  },
+  {
+    name: "室内 少女",
+    url: "https://api.18xo.eu.org/file/1747807573138_45974.png"
+  },
+  {
+    name: "气质 美女",
+    url: "https://api.18xo.eu.org/file/1747555411808_蓝色眼睛气质美女4K动漫壁纸3840x2160_彼岸图网.jpg"
+  },{
+    name: "仙侠 凌仙",
+    url: "https://api.18xo.eu.org/file/1747497529196_仙侠凌仙 紫色长卷发美女 古风古典 4K壁纸 3840x2160_彼岸图网.jpg"
+  },
+  {
+    name: "房间 金克斯",
+    url: "https://api.18xo.eu.org/file/1747554802383_房间 金克丝4K动漫壁纸_彼岸图网.jpg"
+  },
+  {
+    name: "白色 长发 女孩",
+    url: "https://api.18xo.eu.org/file/1745299472396_黑色t恤女孩_报纸墙_白色长发_3440_1440带鱼屏壁纸_彼岸图网.jpg"
   }
 ];
 
