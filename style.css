@@ -8,8 +8,8 @@ body {
 
 .carousel {
   position: relative;
-  width: 100%;
-  max-width: 1920px;
+  width: 50%;
+  max-width: 960px;
   margin: auto;
   background-color: #fff; /* 白色背景包裹图片 */
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
