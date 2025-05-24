@@ -1,5 +1,5 @@
 // 模拟壁纸数据（你可以换成从 JSON 或 API 加载）
-const wallpapers = [
+const images = [
   {
     name: "冷艳少女",
     url: "https://api.18xo.eu.org/file/1747823385782_43634.png"
