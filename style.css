@@ -76,12 +76,3 @@ body {
     max-width: 100%;
   }
 }
-  .info h2 {
-    font-size: 18px;
-  }
-
-  #download-btn {
-    padding: 8px 12px;
-    font-size: 14px;
-  }
-}
