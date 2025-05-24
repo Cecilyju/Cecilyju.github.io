@@ -13,7 +13,7 @@ const wallpapers = [
     url: "https://api.18xo.eu.org/file/1748087201489_46578.png"
   },
   {
-    name: "动漫 阿尼亚 4k电脑 壁纸",
+    name: "动漫阿尼亚 4k电脑 壁纸",
     url: "https://api.18xo.eu.org/file/1745299353122_动漫阿尼亚4k电脑壁纸_彼岸图网.jpg"
   },
   {
@@ -21,7 +21,7 @@ const wallpapers = [
     url: "https://api.18xo.eu.org/file/1745299346929_古风蓝衣少女4K壁纸3840_2400_彼岸图网.jpg"
   },
   {
-    name: "初音 未来 MIKU 二次元",
+    name: "初音未来 MIKU 二次元",
     url: "https://api.18xo.eu.org/file/1748087214237_47124.png"
   },
   {
@@ -29,7 +29,7 @@ const wallpapers = [
     url: "https://api.18xo.eu.org/file/1748087197998_46950.png"
   },
   {
-    name: "二次元 长剑 纹身女孩",
+    name: "二次元 长剑纹身女孩",
     url: "https://api.18xo.eu.org/file/1748087206026_46853.png"
   },
   {
@@ -37,7 +37,7 @@ const wallpapers = [
     url: "https://api.18xo.eu.org/file/1748087199998_46851.png"
   },
   {
-    name: "二次元 朋克风 初音 未来",
+    name: "二次元 朋克风 初音未来",
     url: "https://api.18xo.eu.org/file/1748087198417_47097.png"
   },
   {
@@ -45,19 +45,19 @@ const wallpapers = [
     url: "https://api.18xo.eu.org/file/1748087217901_47521.png"
   },
   {
-    name: "二次元 动漫 女孩 少女",
+    name: "二次元 动漫女孩 少女",
     url: "https://api.18xo.eu.org/file/1748087216146_47520.png"
   },
   {
-    name: "二次元 动漫 美少女 女孩 4K",
+    name: "二次元 动漫美少女 女孩 4K",
     url: "https://api.18xo.eu.org/file/1748087221167_47212.png"
   },
   {
-    name: "二次元 少女 雨伞女孩",
+    name: "二次元少女 雨伞女孩",
     url: "https://api.18xo.eu.org/file/1748087211976_47729.png"
   },
   {
-    name: "二次元 美少女 4K壁纸",
+    name: "二次元美少女 4K壁纸",
     url: "https://api.18xo.eu.org/file/1748087225250_47781.png"
   },
   {
@@ -65,7 +65,7 @@ const wallpapers = [
     url: "https://api.18xo.eu.org/file/1748087217869_47541.png"
   },
   {
-    name: "二次元 性感 美少女 居家",
+    name: "二次元 性感美少女 居家",
     url: "https://api.18xo.eu.org/file/1748087221544_47530.png"
   },
   {
@@ -89,7 +89,7 @@ const wallpapers = [
     url: "https://api.18xo.eu.org/file/1748087217578_48173.png"
   },
   {
-    name: "二次元 银发 少女 女孩",
+    name: "二次元 银发少女 女孩",
     url: "https://api.18xo.eu.org/file/1748087218120_47789.png"
   },
   {
@@ -101,11 +101,11 @@ const wallpapers = [
     url: "https://api.18xo.eu.org/file/1748087227923_48603.png"
   },
   {
-    name: "报纸图 美女 4K",
+    name: "报纸图 性感美女 4K",
     url: "https://api.18xo.eu.org/file/1748087233975_47783.png"
   },
   {
-    name: "鞠婧祎 4K壁纸",
+    name: "鞠婧祎 4K电脑壁纸",
     url: "https://api.18xo.eu.org/file/1748087226093_46585.png"
   },
   {
@@ -121,7 +121,7 @@ const wallpapers = [
     url: "https://api.18xo.eu.org/file/1748087222356_48891.png"
   },
   {
-    name: "女孩 短裙 白色",
+    name: "美女孩 短裙 白色",
     url: "https://api.18xo.eu.org/file/1748087230259_49186.png"
   },
   {
@@ -133,7 +133,7 @@ const wallpapers = [
     url: "https://api.18xo.eu.org/file/1748087233934_49170.png"
   },
   {
-    name: "鞠婧祎 黑色 裙子",
+    name: "鞠婧祎 黑色 裙子 4K壁纸",
     url: "https://api.18xo.eu.org/file/1748087230575_49169.png"
   },
   {
@@ -161,23 +161,23 @@ const wallpapers = [
     url: "https://api.18xo.eu.org/file/1748087351899_49237.png"
   },
   {
-    name: "二次元 犬夜叉",
+    name: "二次元 动漫犬夜叉",
     url: "https://api.18xo.eu.org/file/1748087358642_45967.png"
   },
   {
-    name: "居家 二次元 少女",
+    name: "居家 4K壁纸 二次元 美少女",
     url: "https://api.18xo.eu.org/file/1748087269206_49180.png"
   },
   {
-    name: "二次元 帽子女孩",
+    name: "二次元 少女 帽子女孩",
     url: "https://api.18xo.eu.org/file/1748087274428_49128.png"
   },
   {
-    name: "MIKU 二次元 初音",
+    name: "MIKU 二次元 初音未来",
     url: "https://api.18xo.eu.org/file/1748087277925_49185.png"
   },
   {
-    name: "二次元 居家 少女",
+    name: "二次元 居家女孩 少女",
     url: "https://api.18xo.eu.org/file/1748087361946_49184.png"
   },
   {
@@ -185,7 +185,7 @@ const wallpapers = [
     url: "https://api.18xo.eu.org/file/1748087360011_48773.jpg"
   },
   {
-    name: "窗户 女孩",
+    name: "4K壁纸 窗户 女孩",
     url: "https://api.18xo.eu.org/file/1748087365121_48190.png"
   },
   {
@@ -193,11 +193,11 @@ const wallpapers = [
     url: "https://api.18xo.eu.org/file/1748087261887_45882.png"
   },
   {
-    name: "鞠婧祎 美女",
+    name: "鞠婧祎 美女 4K电脑 壁纸",
     url: "https://api.18xo.eu.org/file/1748087366283_47347.png"
   },
   {
-    name: "二次元 你豆子",
+    name: "二次元 动漫你豆子",
     url: "https://api.18xo.eu.org/file/1748087258466_48185.png"
   },
   {
@@ -205,11 +205,11 @@ const wallpapers = [
     url: "https://api.18xo.eu.org/file/1748087265216_48183.png"
   },
   {
-    name: "二次元 少女 阿尼亚",
+    name: "二次元 少女 动漫阿尼亚",
     url: "https://api.18xo.eu.org/file/1748087365180_47701.png"
   },
   {
-    name: "二次元 性感美女",
+    name: "二次元 女孩 性感美女",
     url: "https://api.18xo.eu.org/file/1748087257465_47394.png"
   },
   {
@@ -233,7 +233,7 @@ const wallpapers = [
     url: "https://api.18xo.eu.org/file/1748087352956_49246.png"
   },
   {
-    name: "二次元 女孩 少女",
+    name: "二次元 女孩 4K壁纸 少女",
     url: "https://api.18xo.eu.org/file/1748087243054_47348.png"
   },
   {
@@ -241,7 +241,7 @@ const wallpapers = [
     url: "https://api.18xo.eu.org/file/1748087354475_49238.png"
   },
   {
-    name: "优雅长裙美女杨幂",
+    name: "优雅长裙 美女 杨幂 4K",
     url: "https://api.18xo.eu.org/file/1748051997990_优雅长裙美女杨幂4K手机壁纸图片_彼岸图网.jpg"
   },
   {
@@ -249,15 +249,15 @@ const wallpapers = [
     url: "https://api.18xo.eu.org/file/1748051999245_希里 侧脸 游戏美女 4K壁纸 3840x2160_彼岸图网.jpg"
   },
   {
-    name: "黑色套装美女孔雪儿",
+    name: "黑色套装 美女 孔雪儿",
     url: "https://api.18xo.eu.org/file/1748052000699_黑色套装美女孔雪儿 4K壁纸 3840x2400_彼岸图网.jpg"
   },
   {
-    name: "刘亦菲紫色眼睛美女",
+    name: "刘亦菲 紫色眼睛 美女",
     url: "https://api.18xo.eu.org/file/1748051989961_刘亦菲紫色眼睛美女4K手机壁纸图片_彼岸图网.jpg"
   },
   {
-    name: "孔雪儿 4K手机壁纸",
+    name: "孔雪儿 4K手机 壁纸",
     url: "https://api.18xo.eu.org/file/1748051994104_孔雪儿4K手机壁纸_彼岸图网.jpg"
   },
   {
