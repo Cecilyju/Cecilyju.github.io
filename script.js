@@ -1,6 +1,6 @@
 // 壁纸数据（可扩展为 JSON 或 API 加载）
 const wallpapers = [
-  { name: "日落山景", url: "wallpapers/sunset.jpg" },
+  { name: "冷艳少女", url: "https://api.18xo.eu.org/file/1747823385782_43634.png" },
   { name: "森林小径", url: "wallpapers/forest.jpg" },
   { name: "海边晨曦", url: "wallpapers/beach.jpg" },
   { name: "城市夜景", url: "wallpapers/city.jpg" },
