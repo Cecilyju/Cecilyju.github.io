@@ -157,7 +157,7 @@ const wallpapers = [
     url: "https://api.18xo.eu.org/file/1748087360724_46199.png"
   },
   {
-    name: "Cosplay 女孩 蓝色,
+    name: "Cosplay 女孩 蓝色",
     url: "https://api.18xo.eu.org/file/1748087351899_49237.png"
   },
   {
