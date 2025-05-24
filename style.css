@@ -1,80 +1,123 @@
+/* 全局基础样式 */
 body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-  text-align: center;
+  padding: 0;
 }
 
+.site-header {
+  text-align: center;
+  padding: 20px;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* 主图轮播区域 */
 .carousel {
-  position: relative;
-  width: 100%;
-  max-width: 1920px;
-  margin: auto;
-  background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  margin: 20px;
 }
 
 .carousel img {
-  width: 100%;
-  max-height: 80vh;
-  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 .info {
-  background: rgba(255, 255, 255, 0.95);
-  padding: 10px;
-  color: #222;
-  border-top: 1px solid #ddd;
+  margin-top: 10px;
 }
 
 #download-btn {
   display: inline-block;
-  margin-top: 5px;
-  padding: 10px 15px;
+  margin-top: 10px;
+  padding: 8px 16px;
   background-color: #007bff;
-  color: white;
+  color: #fff;
   text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
+  border-radius: 6px;
 }
 
 #download-btn:hover {
   background-color: #0056b3;
 }
 
+/* 缩略图显示模式切换按钮 */
+.mode-toggle {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding: 8px 16px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* 缩略图网格布局（CSS Grid） */
 .thumbnails-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   gap: 12px;
   padding: 20px;
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 
+/* 通用缩略图样式 */
 .thumbnails-grid img {
   width: 100%;
   height: 100%;
-  object-fit: fill; /* 强制拉伸变形填充 */
-  aspect-ratio: 4 / 3; /* 统一缩略图比例：4:3，可调整为 1/1 等 */
+  aspect-ratio: 4 / 3;
   border-radius: 6px;
   cursor: pointer;
-  transition: transform 0.3s;
+  transition: transform 0.3s ease;
 }
 
 .thumbnails-grid img:hover {
   transform: scale(1.03);
 }
 
-/* 响应式缩略图自动适应屏幕 */
-@media (max-width: 768px) {
-  .thumbnails img {
-    max-width: 45%;
-  }
+/* 裁切模式：object-fit: cover */
+.thumbnails-grid.cover-mode img {
+  object-fit: cover;
 }
 
-@media (max-width: 480px) {
-  .thumbnails img {
-    max-width: 100%;
+/* 变形模式：object-fit: fill */
+.thumbnails-grid.fill-mode img {
+  object-fit: fill;
+}
+
+/* 页脚 */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #888;
+}
+
+/* 响应式支持 */
+@media (max-width: 768px) {
+  .site-header h1 {
+    font-size: 1.8em;
+  }
+
+  .subtitle {
+    font-size: 1em;
+  }
+
+  .mode-toggle {
+    font-size: 0.9em;
   }
 }
