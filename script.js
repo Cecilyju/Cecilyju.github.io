@@ -1,6 +1,158 @@
 // 壁纸列表（使用外链图源）
 const wallpapers = [
   {
+    name: "动漫 少女 鬼女孩",
+    url: "https://api.18xo.eu.org/file/1748106956307_45880.png"
+  },
+  {
+    name: "动漫 少女 彩绘墙 兽耳",
+    url: "https://api.18xo.eu.org/file/1748106887300_46195.png"
+  },
+  {
+    name: "动漫 美少女 女孩 彩绘墙",
+    url: "https://api.18xo.eu.org/file/1748106875444_46193.png"
+  },
+  {
+    name: "动漫 少女 女孩 居家 玩偶",
+    url: "https://api.18xo.eu.org/file/1748106873871_46191.png"
+  },
+  {
+    name: "动漫 美少女 女孩 壁纸",
+    url: "https://api.18xo.eu.org/file/1748106876492_46189.png"
+  },
+  {
+    name: "动漫 女孩 红发少女",
+    url: "https://api.18xo.eu.org/file/1748106864186_46186.png"
+  },
+  {
+    name: "动漫 少女 女孩 角色 4K",
+    url: "https://api.18xo.eu.org/file/1748106869458_46184.png"
+  },
+  {
+    name: "动漫 角色 女孩 少女 壁纸4K",
+    url: "https://api.18xo.eu.org/file/1748106866488_46182.png"
+  },
+  {
+    name: "动漫 少女 花朵 花墙",
+    url: "https://api.18xo.eu.org/file/1748106911724_46330.png"
+  },
+  {
+    name: "动漫 少女 化妆 女孩",
+    url: "https://api.18xo.eu.org/file/1748106916717_46323.png"
+  },
+  {
+    name: "动漫 人物 犬夜叉 桔梗",
+    url: "https://api.18xo.eu.org/file/1748106909099_46322.png"
+  },
+  {
+    name: "动漫 女孩 车站 火车",
+    url: "https://api.18xo.eu.org/file/1748106902449_46321.png"
+  },
+  {
+    name: "动漫 人物 壁纸 4K电脑",
+    url: "https://api.18xo.eu.org/file/1748106896517_46320.png"
+  },
+  {
+    name: "动漫 电影 疯狂动物城",
+    url: "https://api.18xo.eu.org/file/1748106887320_46316.png"
+  },
+  {
+    name: "动漫 人物 你豆子 女孩",
+    url: "https://api.18xo.eu.org/file/1748106894827_46238.png"
+  },
+  {
+    name: "动漫 女孩 持剑 少女",
+    url: "https://api.18xo.eu.org/file/1748106904919_46231.png"
+  },
+  {
+    name: "动漫 少女 面具女孩",
+    url: "https://api.18xo.eu.org/file/1748106876825_46217.png"
+  },
+  {
+    name: "动漫 少女 眼睛",
+    url: "https://api.18xo.eu.org/file/1748106958802_45740.png"
+  },
+  {
+    name: "动漫 吉他 女孩 兽耳",
+    url: "https://api.18xo.eu.org/file/1748106953315_45662.png"
+  },
+  {
+    name: "动漫 少女 花海",
+    url: "https://api.18xo.eu.org/file/1748106960438_46384.png"
+  },
+  {
+    name: "动漫 吃饭女孩",
+    url: "https://api.18xo.eu.org/file/1748106952520_45661.png"
+  },
+  {
+    name: "动漫 女孩 酷 彩绘",
+    url: "https://api.18xo.eu.org/file/1748106955971_45879.png"
+  },
+  {
+    name: "动漫 初音未来 窗户 下雨",
+    url: "https://api.18xo.eu.org/file/1748106953453_46366.png"
+  },
+  {
+    name: "动漫 青春 美少女",
+    url: "https://api.18xo.eu.org/file/1748106953797_45660.png"
+  },
+  {
+    name: "动漫 高马尾 少女 女孩",
+    url: "https://api.18xo.eu.org/file/1748106947739_45653.png"
+  },
+  {
+    name: "动漫 少女 沐浴",
+    url: "https://api.18xo.eu.org/file/1748106953018_45649.png"
+  },
+  {
+    name: "动漫 少女 兽耳娘",
+    url: "https://api.18xo.eu.org/file/1748106952325_45648.png"
+  },
+  {
+    name: "动漫 女孩 美少女 壁纸",
+    url: "https://api.18xo.eu.org/file/1748106940243_45581.png"
+  },
+  {
+    name: "动漫 女孩 手 咬",
+    url: "https://api.18xo.eu.org/file/1748106930390_46382.png"
+  },
+  {
+    name: "动漫 少女 兽耳女孩",
+    url: "https://api.18xo.eu.org/file/1748106933533_45169.png"
+  },
+  {
+    name: "书法 蝴蝶 字帖 4K壁纸",
+    url: "https://api.18xo.eu.org/file/1748106942705_47575.png"
+  },
+  {
+    name: "动漫 风景 4K电脑壁纸",
+    url: "https://api.18xo.eu.org/file/1748106933487_45137.png"
+  },
+  {
+    name: "动漫 人物 龙女 兽娘",
+    url: "https://api.18xo.eu.org/file/1748106921667_46573.png"
+  },
+  {
+    name: "美女 眼镜 居室",
+    url: "https://api.18xo.eu.org/file/1748106917896_46569.png"
+  },
+  {
+    name: "动漫 美女 少女 翅膀",
+    url: "https://api.18xo.eu.org/file/1748106921467_46572.png"
+  },
+  {
+    name: "动漫 漫画 少女 女孩",
+    url: "https://api.18xo.eu.org/file/1748106918773_48770.png"
+  },
+  {
+    name: "动漫 少女 汽车",
+    url: "https://api.18xo.eu.org/file/1748106910018_47358.png"
+  },
+  {
+    name: "动漫 性感 美女 居家 壁纸",
+    url: "https://api.18xo.eu.org/file/1748106917197_46331.png"
+  },
+  {
     name: "冷艳少女",
     url: "https://api.18xo.eu.org/file/1747823385782_43634.png"
   },
