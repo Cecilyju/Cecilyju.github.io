@@ -1,3 +1,4 @@
+// 壁纸列表（使用外链图源）
 const wallpapers = [
   {
     name: "冷艳少女",
@@ -507,6 +508,7 @@ const wallpapers = [
 ];
 
 let currentIndex = 0;
+
 const mainImage = document.getElementById("main-image");
 const imageName = document.getElementById("image-name");
 const resolution = document.getElementById("resolution");
@@ -525,7 +527,7 @@ function loadMainImage(wallpaper) {
   };
 }
 
-// 点击主图下载
+// 主图点击下载
 mainImage.addEventListener("click", () => {
   const link = document.createElement("a");
   link.href = mainImage.src;
@@ -548,7 +550,7 @@ function renderThumbnails() {
       loadMainImage(wallpapers[index]);
     });
 
-    // 双击下载
+    // 双击下载图片
     thumb.addEventListener("dblclick", () => {
       const link = document.createElement("a");
       link.href = wallpaper.url;
@@ -569,7 +571,7 @@ function startRandomSlideshow() {
     } while (nextIndex === currentIndex);
     currentIndex = nextIndex;
     loadMainImage(wallpapers[currentIndex]);
-  }, 8000);
+  }, 5000);
 }
 
 // 初始化
