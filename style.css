@@ -53,8 +53,8 @@ body {
 }
 
 .thumbnails img {
-  width: 160px;
-  height: 80;
+  width: auto;
+  height: auto;
   margin: 5px;
   cursor: pointer;
   border: 2px solid transparent;
