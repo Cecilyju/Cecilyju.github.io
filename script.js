@@ -4,7 +4,7 @@ const images = [
     url: "https://api.18xo.eu.org/file/1748049503921_【哲风壁纸】二次元角色-动漫美少女.png"
   },
   {
-    name: "AI 少女",
+    name: "AI 美少女",
     url: "https://api.18xo.eu.org/file/1748049504855_【哲风壁纸】少女-少女壁纸.png"
   },
   {
