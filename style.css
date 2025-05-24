@@ -43,25 +43,27 @@ body {
   background-color: #0056b3;
 }
 
-.thumbnails {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
+.thumbnails-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
   padding: 20px;
+  max-width: 1200px;
+  margin: auto;
 }
 
-.thumbnails img {
+.thumbnails-grid img {
   width: 100%;
-  max-width: 200px;
-  height: auto;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
+  height: 100%;
+  object-fit: fill; /* 强制拉伸变形填充 */
+  aspect-ratio: 4 / 3; /* 统一缩略图比例：4:3，可调整为 1/1 等 */
+  border-radius: 6px;
   cursor: pointer;
+  transition: transform 0.3s;
 }
 
-.thumbnails img:hover {
-  transform: scale(1.05);
+.thumbnails-grid img:hover {
+  transform: scale(1.03);
 }
 
 /* 响应式缩略图自动适应屏幕 */
