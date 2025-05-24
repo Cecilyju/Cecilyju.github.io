@@ -566,3 +566,17 @@ function restartAutoPlay() {
 }
 
 initializeImages();
+const toggleBtn = document.getElementById("toggle-mode");
+const thumbGrid = document.getElementById("thumbnails-container");
+
+toggleBtn.addEventListener("click", () => {
+  if (thumbGrid.classList.contains("fill-mode")) {
+    thumbGrid.classList.remove("fill-mode");
+    thumbGrid.classList.add("cover-mode");
+    toggleBtn.textContent = "切换为变形模式";
+  } else {
+    thumbGrid.classList.remove("cover-mode");
+    thumbGrid.classList.add("fill-mode");
+    toggleBtn.textContent = "切换为裁切模式";
+  }
+});
