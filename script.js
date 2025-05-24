@@ -5,6 +5,81 @@ const wallpapers = [
     url: "https://api.18xo.eu.org/file/1747823385782_43634.png"
   },
   {
+    name: "优雅长裙美女杨幂",
+    url: "https://api.18xo.eu.org/file/1748051997990_优雅长裙美女杨幂4K手机壁纸图片_彼岸图网.jpg"
+  },
+  {
+    name: "希里 侧脸 游戏美女",
+    url: "https://api.18xo.eu.org/file/1748051999245_希里 侧脸 游戏美女 4K壁纸 3840x2160_彼岸图网.jpg"
+  },
+  {
+    name: "黑色套装美女孔雪儿",
+    url: "https://api.18xo.eu.org/file/1748052000699_黑色套装美女孔雪儿 4K壁纸 3840x2400_彼岸图网.jpg"
+  },
+  {
+    name: "刘亦菲紫色眼睛美女",
+    url: "https://api.18xo.eu.org/file/1748051989961_刘亦菲紫色眼睛美女4K手机壁纸图片_彼岸图网.jpg"
+  },
+  {
+    name: "孔雪儿 4K手机壁纸",
+    url: "https://api.18xo.eu.org/file/1748051994104_孔雪儿4K手机壁纸_彼岸图网.jpg"
+  },
+  {
+    name: "孔雪儿 4K美女 手机壁纸",
+    url: "https://api.18xo.eu.org/file/1748051995507_孔雪儿4K美女手机壁纸图片_彼岸图网.jpg"
+  },
+  {
+    name: "古风美女 刘些宁 花 4K手机",
+    url: "https://api.18xo.eu.org/file/1748051986357_古风美女 刘些宁 花 4K手机壁纸_彼岸图网.jpg"
+  },
+  {
+    name: "金克丝 蓝色双马尾辫 报纸墙",
+    url: "https://api.18xo.eu.org/file/1748051991364_金克丝 蓝色双马尾辫 报纸墙 金克斯电脑壁纸4k超清_彼岸图网.jpg"
+  },
+  {
+    name: "黑色外套 美女孟子义 4K手机壁纸",
+    url: "https://api.18xo.eu.org/file/1748051991057_黑色外套美女孟子义4K手机壁纸全屏_彼岸图网.jpg"
+  },
+  {
+    name: "敖闰 唯美高清 4K壁纸",
+    url: "https://api.18xo.eu.org/file/1748051983478_敖闰唯美高清4K壁纸3840x2160_彼岸图网.jpg"
+  },
+  {
+    name: "房间 阳光 神里绫华",
+    url: "https://api.18xo.eu.org/file/1748051984410_房间 阳光 神里绫华 3440x1440带鱼屏壁纸_彼岸图网.jpg"
+  },{
+    name: "帅气 金克丝",
+    url: "https://api.18xo.eu.org/file/1748051980132_帅气金克丝 3440x1440超清带鱼屏壁纸_彼岸图网.jpg"
+  },
+  {
+    name: "春天小黄花 清新美女 唯美闭眼 刘些宁",
+    url: "https://api.18xo.eu.org/file/1748077458007_春天小黄花 清新美女 唯美闭眼 刘些宁4K壁纸3840x2400_彼岸图网.jpg"
+  },
+  {
+    name: "居家 阳光 可爱小女孩 神里绫华",
+    url: "https://api.18xo.eu.org/file/1748077448070_居家 阳光 可爱小女孩 神里绫华 4K电脑壁纸 3840x2160_彼岸图网.jpg"
+  },
+  {
+    name: "动漫女孩 西服 领带 日向雏田",
+    url: "https://api.18xo.eu.org/file/1748077446443_动漫女孩 西服 领带 日向雏田 4K电脑壁纸 3840x2160_彼岸图网.jpg"
+  },
+  {
+    name: "樱花 古风美女 刘些宁 4K电脑壁纸",
+    url: "https://api.18xo.eu.org/file/1748077449280_樱花 古风美女 刘些宁 4K电脑壁纸 3840x2400_彼岸图网.jpg"
+  },
+  {
+    name: "芙宁娜 一起去海边 4K壁纸",
+    url: "https://api.18xo.eu.org/file/1748077448265_芙宁娜 一起去海边 4K壁纸 3840x2160_彼岸图网.jpg"
+  },
+  {
+    name: "瑶-大耳狗之梦 王者荣耀 5K壁纸",
+    url: "https://api.18xo.eu.org/file/1748077440732_瑶-大耳狗之梦 王者荣耀 5K壁纸_彼岸图网.jpg"
+  },
+  {
+    name: "原神胡桃 小幽灵 蝴蝶 4K壁纸",
+    url: "https://api.18xo.eu.org/file/1748077439249_原神胡桃 小幽灵 蝴蝶 4K壁纸 3840x2160_彼岸图网.jpg"
+  },
+  {
     name: "海上 船 可爱女生长发",
     url: "https://api.18xo.eu.org/file/1748052035636_海上 船 可爱女生长发 4K壁纸全屏 3840x2400_彼岸图网.jpg"
   },
