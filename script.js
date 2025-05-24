@@ -1,4 +1,4 @@
-const imageList = [
+const images = [
   {
     name: "冷艳少女",
     url: "https://api.18xo.eu.org/file/1747823385782_43634.png"
