@@ -1,115 +1,61 @@
 body {
-  background-color: #ffffff;
-  color: #000000;
-  font-family: sans-serif;
   margin: 0;
-  padding: 0;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.site-header {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
   text-align: center;
-  padding: 20px;
-}
-
-.site-header h1 {
-  margin: 0;
-  font-size: 2.5em;
-}
-
-.subtitle {
-  font-size: 1.2em;
-  color: #666;
-}
-
-.theme-toggle {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  z-index: 999;
 }
 
 .carousel {
-  text-align: center;
-  margin: 20px;
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  margin: auto;
 }
 
 .carousel img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
+  width: 100%;
+  max-height: 1080px;
+  object-fit: cover;
 }
 
 .info {
-  margin-top: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
 }
 
 #download-btn {
   display: inline-block;
-  margin-top: 10px;
-  padding: 8px 16px;
-  background-color: #007bff;
-  color: #fff;
+  margin-top: 5px;
+  padding: 10px 15px;
+  background-color: #1e90ff;
+  color: white;
   text-decoration: none;
-  border-radius: 6px;
+  border-radius: 5px;
 }
 
-#download-btn:hover {
-  background-color: #0056b3;
+.thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #111;
+  padding: 10px;
 }
 
-/* 夜间模式 */
-body.dark-mode {
-  background-color: #121212;
-  color: #ffffff;
-}
-
-body.dark-mode #download-btn {
-  background-color: #444;
-}
-
-body.dark-mode #download-btn:hover {
-  background-color: #666;
-}
-
-/* 缩略图网格排布（CSS Grid） */
-.thumbnails-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 15px;
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.thumbnails-grid img {
-  width: 100%;
+.thumbnails img {
+  width: 200px;
   height: auto;
-  border-radius: 8px;
+  margin: 5px;
   cursor: pointer;
-  transition: transform 0.3s;
+  border: 2px solid transparent;
 }
 
-.thumbnails-grid img:hover {
-  transform: scale(1.05);
+.thumbnails img:hover {
+  border-color: #1e90ff;
 }
 
 footer {
-  text-align: center;
-  padding: 20px;
-  font-size: 0.9em;
-  color: #888;
-}
-
-/* 响应式适配 */
-@media (max-width: 768px) {
-  .site-header h1 {
-    font-size: 1.8em;
-  }
-
-  .subtitle {
-    font-size: 1em;
-  }
+  background-color: #000;
+  color: #aaa;
+  padding: 20px 0;
 }
