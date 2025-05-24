@@ -1,5 +1,5 @@
-// 模拟壁纸数据（你可以换成从 JSON 或 API 加载）
-const images = [
+// 壁纸数据（可扩展为 JSON 或 API 加载）
+const wallpapers = [
   {
     name: "冷艳少女",
     url: "https://api.18xo.eu.org/file/1747823385782_43634.png"
@@ -520,7 +520,6 @@ function loadMainImage(wallpaper) {
   resolution.textContent = "分辨率检测中...";
   downloadBtn.href = wallpaper.url;
 
-  // 加载完成后获取实际分辨率
   mainImage.onload = () => {
     resolution.textContent = `${mainImage.naturalWidth} × ${mainImage.naturalHeight}`;
   };
@@ -542,21 +541,6 @@ function renderThumbnails() {
     thumbnailsContainer.appendChild(thumb);
   });
 }
-
-// 缩略图显示模式切换
-const toggleBtn = document.getElementById("toggle-mode");
-
-toggleBtn.addEventListener("click", () => {
-  if (thumbnailsContainer.classList.contains("fill-mode")) {
-    thumbnailsContainer.classList.remove("fill-mode");
-    thumbnailsContainer.classList.add("cover-mode");
-    toggleBtn.textContent = "切换为变形模式";
-  } else {
-    thumbnailsContainer.classList.remove("cover-mode");
-    thumbnailsContainer.classList.add("fill-mode");
-    toggleBtn.textContent = "切换为裁切模式";
-  }
-});
 
 // 初始化
 renderThumbnails();
