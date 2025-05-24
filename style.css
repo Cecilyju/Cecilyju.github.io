@@ -1,71 +1,10 @@
-/* 通用基础样式 */
 body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: sans-serif;
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-  text-align: center;
-}
-
-.carousel {
-  position: relative;
-  width: 100%;
-  max-width: 1920px;
-  margin: auto;
-  background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.carousel img {
-  width: 100%;
-  max-height: 100vh;
-  object-fit: contain;
-}
-
-.info {
-  background: rgba(255, 255, 255, 0.95);
-  padding: 10px;
-  color: #222;
-  border-top: 1px solid #ddd;
-}
-
-#download-btn {
-  display: inline-block;
-  margin-top: 5px;
-  padding: 10px 15px;
-  background-color: #007bff;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-#download-btn:hover {
-  background-color: #0056b3;
-}
-
-/* 缩略图区域 */
-.thumbnails {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background: #fff;
-  padding: 10px;
-  box-shadow: 0 -2px 6px rgba(0,0,0,0.05);
-}
-
-.thumbnails img {
-  width: 200px;
-  height: auto;
-  margin: 5px;
-  cursor: pointer;
-  border: 2px solid transparent;
-  border-radius: 4px;
-  transition: border-color 0.3s ease;
-}
-
-.thumbnails img:hover {
-  border-color: #007bff;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .site-header {
@@ -83,57 +22,94 @@ body {
   color: #666;
 }
 
-/* 页脚 */
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.carousel {
+  text-align: center;
+  margin: 20px;
+}
+
+.carousel img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.info {
+  margin-top: 10px;
+}
+
+#download-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+#download-btn:hover {
+  background-color: #0056b3;
+}
+
+/* 夜间模式 */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode #download-btn {
+  background-color: #444;
+}
+
+body.dark-mode #download-btn:hover {
+  background-color: #666;
+}
+
+/* 缩略图网格排布（CSS Grid） */
+.thumbnails-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.thumbnails-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.thumbnails-grid img:hover {
+  transform: scale(1.05);
+}
+
 footer {
-  background-color: #f9f9f9;
-  color: #666;
-  padding: 20px 0;
-  font-size: 14px;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #888;
 }
 
-/* 响应式样式 */
-@media screen and (max-width: 768px) {
-  .carousel img {
-    max-height: 50vh;
+/* 响应式适配 */
+@media (max-width: 768px) {
+  .site-header h1 {
+    font-size: 1.8em;
   }
 
-  #download-btn {
-    width: 90%;
-    margin: 10px auto 0;
-  }
-
-  .thumbnails img {
-    width: 45%;
-  }
-
-  .info h2 {
-    font-size: 18px;
-  }
-
-  .info p {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .thumbnails img {
-    width: 100%;
-  }
-
-  .info {
-    padding: 8px;
-  }
-
-  .info h2 {
-    font-size: 16px;
-  }
-
-  .info p {
-    font-size: 12px;
-  }
-
-  #download-btn {
-    font-size: 14px;
-    padding: 8px 12px;
+  .subtitle {
+    font-size: 1em;
   }
 }
