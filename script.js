@@ -1,43 +1,43 @@
 const images = [
   {
-    name: "动漫美少女",
+    name: "冷艳少女",
+    url: "https://api.18xo.eu.org/file/1747823385782_43634.png"
+  },
+  {
+    name: "二次元角色-动漫美少女",
     url: "https://api.18xo.eu.org/file/1748049503921_【哲风壁纸】二次元角色-动漫美少女.png"
   },
   {
-    name: "AI 美少女",
+    name: "少女-少女壁纸",
     url: "https://api.18xo.eu.org/file/1748049504855_【哲风壁纸】少女-少女壁纸.png"
   },
   {
-    name: "二次元 动漫少女",
+    name: "二次元-动漫角色",
     url: "https://api.18xo.eu.org/file/1748049505648_【哲风壁纸】二次元-动漫角色.png"
   },
   {
-    name: "二次元 动漫角色",
+    name: "二次元动漫-动漫角色",
     url: "https://api.18xo.eu.org/file/1748049502491_【哲风壁纸】二次元动漫-动漫角色.png"
   },
   {
-    name: "二次元 少女",
+    name: "二次元-动漫风格",
     url: "https://api.18xo.eu.org/file/1748049497652_【哲风壁纸】二次元-动漫风格.png"
   },
   {
-    name: "二次元 少女插画",
+    name: "二次元-少女插画",
     url: "https://api.18xo.eu.org/file/1748049498649_【哲风壁纸】二次元-少女插画.png"
   },
   {
-    name: "动漫美女 性感时尚",
+    name: "动漫美女-性感时尚",
     url: "https://api.18xo.eu.org/file/1748049492966_【哲风壁纸】动漫美女-性感时尚.png"
   },
   {
-    name: "妖艳 少女 未来感",
+    name: "妖艳-少女-未来感",
     url: "https://api.18xo.eu.org/file/1748049497127_【哲风壁纸】妖艳-少女-未来感.png"
   },
   {
-    name: "AI 美女",
+    name: "AI-AI美女",
     url: "https://api.18xo.eu.org/file/1748049491071_【哲风壁纸】AI-AI美女.png"
-  },
-  {
-    name: "冷艳少女",
-    url: "https://api.18xo.eu.org/file/1747823385782_43634.png"
   },
   {
     name: "成熟美女",
