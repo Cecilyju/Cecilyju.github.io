@@ -1,6 +1,86 @@
 // 壁纸列表（使用外链图源）
 const wallpapers = [
   {
+    name: "居家 女孩 电脑 壁纸",
+    url: "https://api.18xo.eu.org/file/1748106846639_45864.png"
+  },
+  {
+    name: "二次元 动漫 少女 沐浴女孩",
+    url: "https://api.18xo.eu.org/file/1748106825810_48903.png"
+  },
+  {
+    name: "动漫 二次元 人物 动物",
+    url: "https://api.18xo.eu.org/file/1748106739691_45635.png"
+  },
+  {
+    name: "壁纸 手绘 绘画",
+    url: "https://api.18xo.eu.org/file/1748106823179_46060.png"
+  },
+  {
+    name: "二次元 动漫少女 女孩 壁纸",
+    url: "https://api.18xo.eu.org/file/1748106822281_45194.png"
+  },
+  {
+    name: "少女 女孩 武器",
+    url: "https://api.18xo.eu.org/file/1748106821815_45158.png"
+  },
+  {
+    name: "动漫 性感女孩 少女 二次元",
+    url: "https://api.18xo.eu.org/file/1748106822111_45157.png"
+  },
+  {
+    name: "动漫 二次元 少女 可爱女孩",
+    url: "https://api.18xo.eu.org/file/1748106800501_45154.png"
+  },
+  {
+    name: "二次元 女孩 书桌 少女 居家",
+    url: "https://api.18xo.eu.org/file/1748106833822_45718.jpg"
+  },
+  {
+    name: "二次元 动漫 女孩 少女",
+    url: "https://api.18xo.eu.org/file/1748106824969_45612.png"
+  },
+  {
+    name: "女孩 少女 红发 动漫 二次元",
+    url: "https://api.18xo.eu.org/file/1748106811404_45611.png"
+  },
+  {
+    name: "动漫 人物 龙",
+    url: "https://api.18xo.eu.org/file/1748106840671_45856.png"
+  },
+  {
+    name: "动漫 人物 刺客 牛仔",
+    url: "https://api.18xo.eu.org/file/1748106840860_45733.png"
+  },
+  {
+    name: "动漫 女孩 吹笛少女",
+    url: "https://api.18xo.eu.org/file/1748106841842_45719.png"
+  },
+  {
+    name: "动漫 美少女 4K壁纸 女孩",
+    url: "https://api.18xo.eu.org/file/1748106866339_45966.png"
+  },
+  {
+    name: "动漫 女孩 双刀 绿发",
+    url: "https://api.18xo.eu.org/file/1748106862892_45878.png"
+  },
+  {
+    name: "动漫 少女 狐狸女孩 兽娘",
+    url: "https://api.18xo.eu.org/file/1748106855160_45877.png"
+  },
+  {
+    name: "动漫 女孩 少女",
+    url: "https://api.18xo.eu.org/file/1748106863832_45873.png"
+  },
+  {
+    name: "动漫 少女 女孩 长腿",
+    url: "https://api.18xo.eu.org/file/1748106854383_45866.png"
+  },
+  {
+    name: "动漫 车站 风景",
+    url: "https://api.18xo.eu.org/file/1748106850610_45860.png"
+  },
+  {
     name: "动漫 少女 鬼女孩",
     url: "https://api.18xo.eu.org/file/1748106956307_45880.png"
   },
