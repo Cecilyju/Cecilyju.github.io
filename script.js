@@ -184,59 +184,59 @@ const wallpapers = [
     name: "Cosplay 蓝发少女",
     url: "https://api.18xo.eu.org/file/1748087360011_48773.jpg"
   },
-    {
+  {
     name: "窗户 女孩",
     url: "https://api.18xo.eu.org/file/1748087365121_48190.png"
   },
-    {
+  {
     name: "跳舞 女孩",
     url: "https://api.18xo.eu.org/file/1748087261887_45882.png"
   },
-    {
+  {
     name: "鞠婧祎 美女",
     url: "https://api.18xo.eu.org/file/1748087366283_47347.png"
   },
-    {
+  {
     name: "二次元 你豆子",
     url: "https://api.18xo.eu.org/file/1748087258466_48185.png"
   },
-    {
+  {
     name: "二次元 女孩 草帽",
     url: "https://api.18xo.eu.org/file/1748087265216_48183.png"
   },
-    {
+  {
     name: "二次元 少女 阿尼亚",
     url: "https://api.18xo.eu.org/file/1748087365180_47701.png"
   },
-    {
+  {
     name: "二次元 性感美女",
     url: "https://api.18xo.eu.org/file/1748087257465_47394.png"
   },
-    {
+  {
     name: "二次元 蓝发美少女",
     url: "https://api.18xo.eu.org/file/1748087364516_47381.png"
   },
-    {
+  {
     name: "二次元 持剑 少女 纹身",
     url: "https://api.18xo.eu.org/file/1748087356541_47360.png"
   },
-    {
+  {
     name: "二次元 持剑 帅气 少女",
     url: "https://api.18xo.eu.org/file/1748087256473_47352.png"
   },
-    {
+  {
     name: "二次元 居家 美少女 玩偶",
     url: "https://api.18xo.eu.org/file/1748087249686_47350.png"
   },
-    {
+  {
     name: "初音未来 长发 MiKu 二次元",
     url: "https://api.18xo.eu.org/file/1748087352956_49246.png"
   },
-    {
+  {
     name: "二次元 女孩 少女",
     url: "https://api.18xo.eu.org/file/1748087243054_47348.png"
   },
-    {
+  {
     name: "居家 美女 沙发",
     url: "https://api.18xo.eu.org/file/1748087354475_49238.png"
   },
@@ -283,7 +283,8 @@ const wallpapers = [
   {
     name: "房间 阳光 神里绫华",
     url: "https://api.18xo.eu.org/file/1748051984410_房间 阳光 神里绫华 3440x1440带鱼屏壁纸_彼岸图网.jpg"
-  },{
+  },
+  {
     name: "帅气 金克丝",
     url: "https://api.18xo.eu.org/file/1748051980132_帅气金克丝 3440x1440超清带鱼屏壁纸_彼岸图网.jpg"
   },
