@@ -1,11 +1,5 @@
-// 壁纸数据（可扩展为 JSON 或 API 加载）
-const wallpapers = [
-  { name: "冷艳少女", url: "https://api.18xo.eu.org/file/1747823385782_43634.png" },
-  { name: "海上 船 可爱女生长发", url: "https://api.18xo.eu.org/file/1748052035636_海上 船 可爱女生长发 4K壁纸全屏 3840x2400_彼岸图网.jpg" },
-  { name: "赛博朋克风格 奇幻少女", url: "https://api.18xo.eu.org/file/1748052043512_赛博朋克风格奇幻少女 集原美电脑4k壁纸3840x2160_彼岸图网.jpg" },
-  { name: "报纸墙 可爱漂亮养眼美女", url: "https://api.18xo.eu.org/file/1748052034629_报纸墙 可爱漂亮养眼美女 4k壁纸 3840x2160_彼岸图网.jpg" },
-  { name: "漂亮少数民族美女", url: "https://api.18xo.eu.org/file/1748052162857_漂亮少数民族美女4k壁纸_彼岸图网.jpg" }
-];
+let wallpapers = [];
+let currentIndex = 0;
 
 const mainImage = document.getElementById("main-image");
 const imageName = document.getElementById("image-name");
@@ -13,8 +7,13 @@ const resolution = document.getElementById("resolution");
 const downloadBtn = document.getElementById("download-btn");
 const thumbnailsContainer = document.getElementById("thumbnails-container");
 
+// 你的图床 JSON API 地址（请替换为你自己的）
+const API_URL = "https://api.18xo.eu.org/random?type=img";
+
 // 加载主图
-function loadMainImage(wallpaper) {
+function loadMainImage(index) {
+  const wallpaper = wallpapers[index];
+  currentIndex = index;
   mainImage.src = wallpaper.url;
   imageName.textContent = wallpaper.name;
   resolution.textContent = "分辨率检测中...";
@@ -25,7 +24,19 @@ function loadMainImage(wallpaper) {
   };
 }
 
-// 加载缩略图
+// 自动轮播
+function startAutoSlideshow(interval = 6000) {
+  setInterval(() => {
+    if (wallpapers.length === 0) return;
+    let nextIndex;
+    do {
+      nextIndex = Math.floor(Math.random() * wallpapers.length);
+    } while (nextIndex === currentIndex);
+    loadMainImage(nextIndex);
+  }, interval);
+}
+
+// 渲染缩略图
 function renderThumbnails() {
   thumbnailsContainer.innerHTML = "";
   wallpapers.forEach((wallpaper, index) => {
@@ -34,14 +45,48 @@ function renderThumbnails() {
     thumb.alt = wallpaper.name;
     thumb.title = wallpaper.name;
 
+    // 单击切换
     thumb.addEventListener("click", () => {
-      loadMainImage(wallpapers[index]);
+      loadMainImage(index);
+    });
+
+    // 双击下载
+    thumb.addEventListener("dblclick", () => {
+      const link = document.createElement("a");
+      link.href = wallpaper.url;
+      link.download = wallpaper.name;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
     });
 
     thumbnailsContainer.appendChild(thumb);
   });
 }
 
+// 主图点击下载
+mainImage.addEventListener("click", () => {
+  downloadBtn.click();
+});
+
+// 加载壁纸数据
+async function fetchWallpapers() {
+  try {
+    const response = await fetch(API_URL);
+    if (!response.ok) throw new Error("加载失败");
+    wallpapers = await response.json();
+    if (wallpapers.length > 0) {
+      renderThumbnails();
+      loadMainImage(0);
+      startAutoSlideshow();
+    } else {
+      imageName.textContent = "未找到壁纸数据";
+    }
+  } catch (error) {
+    imageName.textContent = "加载壁纸失败";
+    console.error(error);
+  }
+}
+
 // 初始化
-renderThumbnails();
-loadMainImage(wallpapers[0]);
+fetchWallpapers();
