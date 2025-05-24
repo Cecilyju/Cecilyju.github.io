@@ -46,61 +46,42 @@ body {
 .thumbnails {
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
   justify-content: center;
-  background: #fff;
-  padding: 10px;
-  box-shadow: 0 -2px 6px rgba(0,0,0,0.05);
+  padding: 20px;
 }
 
 .thumbnails img {
-  width: 160px;
-  height: 120px;
-  margin: 5px;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
   cursor: pointer;
-  border: 2px solid transparent;
-  border-radius: 4px;
-  transition: border-color 0.3s ease;
 }
 
 .thumbnails img:hover {
-  border-color: #007bff;
+  transform: scale(1.05);
 }
 
-footer {
-  background-color: #f9f9f9;
-  color: #666;
-  padding: 20px 0;
-  font-size: 14px;
-}
-
-/* 鍝嶅簲寮忛€傞厤 */
-@media screen and (max-width: 768px) {
-  .carousel img {
-    max-height: 50vh;
-  }
-
+/* 响应式缩略图自动适应屏幕 */
+@media (max-width: 768px) {
   .thumbnails img {
-    width: 45%;
-    margin: 5px 2%;
+    max-width: 45%;
   }
+}
 
+@media (max-width: 480px) {
+  .thumbnails img {
+    max-width: 100%;
+  }
+}
   .info h2 {
     font-size: 18px;
   }
 
   #download-btn {
     padding: 8px 12px;
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .thumbnails img {
-    width: 90%;
-    margin: 5px 0;
-  }
-
-  .info {
     font-size: 14px;
   }
 }
