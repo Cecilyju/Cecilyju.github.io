@@ -1,6 +1,102 @@
 // 壁纸列表（使用外链图源）
 const wallpapers = [
   {
+    name: "个性写真 时尚少女",
+    url: "https://api.18xo.eu.org/file/1748112941513_【哲风壁纸】个性写真-时尚少女.png"
+  },
+  {
+    name: "剑 剑士美女",
+    url: "https://api.18xo.eu.org/file/1748112934227_【哲风壁纸】剑-剑士美女.png"
+  },
+  {
+    name: "光影背景 少女",
+    url: "https://api.18xo.eu.org/file/1748112943577_【哲风壁纸】光影背景-少女.png"
+  },
+  {
+    name: "二次元 猫娘 二次元萌系",
+    url: "https://api.18xo.eu.org/file/1748112931502_【哲风壁纸】二次元-二次元萌系.png"
+  },
+  {
+    name: "英雄联盟 金克斯",
+    url: "https://api.18xo.eu.org/file/1748112942697_【哲风壁纸】英雄联盟-金克斯.png"
+  },
+  {
+    name: "云端 可爱 天使少女",
+    url: "https://api.18xo.eu.org/file/1748112941014_【哲风壁纸】云端-可爱-天使少女.png"
+  },
+  {
+    name: "二次元美女 女孩 唯美角色",
+    url: "https://api.18xo.eu.org/file/1748112937442_【哲风壁纸】二次元美女-唯美角色 (1).png"
+  },
+  {
+    name: "夜景背景 女孩 少女壁纸",
+    url: "https://api.18xo.eu.org/file/1748112936235_【哲风壁纸】夜景背景-少女壁纸.png"
+  },
+  {
+    name: "AI女孩 AI少女",
+    url: "https://api.18xo.eu.org/file/1748112981836_【哲风壁纸】AI-AI少女.png"
+  },
+  {
+    name: "二次元 动漫 少女 女孩 壁纸4K",
+    url: "https://api.18xo.eu.org/file/1748112982016_【哲风壁纸】二次元-动漫.png"
+  },
+  {
+    name: "二次元 动漫 女孩 少女",
+    url: "https://api.18xo.eu.org/file/1748112974276_【哲风壁纸】二次元-动漫 (1).png"
+  },
+  {
+    name: "二次元 兽娘 兽耳娘",
+    url: "https://api.18xo.eu.org/file/1748112982344_【哲风壁纸】二次元-兽娘-兽耳娘.png"
+  },
+  {
+    name: "中式背景 动漫 旗袍 女孩",
+    url: "https://api.18xo.eu.org/file/1748112965220_【哲风壁纸】中式背景-动漫.png"
+  },
+  {
+    name: "游戏 金克丝 角色",
+    url: "https://api.18xo.eu.org/file/1748112968601_【哲风壁纸】暴走萝莉-英雄联盟.png"
+  },
+  {
+    name: "二次元 鬼女孩 刀 纹身",
+    url: "https://api.18xo.eu.org/file/1748112970571_【哲风壁纸】AI-AI元素.png"
+  },
+  {
+    name: "二次元 女孩 卧室 居室",
+    url: "https://api.18xo.eu.org/file/1748112962999_【哲风壁纸】兽耳娘-动漫壁纸.png"
+  },
+  {
+    name: "二次元 动漫 美人 冷白皮 魅魔",
+    url: "https://api.18xo.eu.org/file/1748112965107_【哲风壁纸】二次元美人-冷白皮.png"
+  },
+  {
+    name: "动漫角色 双马尾 金克斯",
+    url: "https://api.18xo.eu.org/file/1748112959143_【哲风壁纸】动漫角色-双马尾.png"
+  },
+  {
+    name: "二次元美女 唯美角色 女孩",
+    url: "https://api.18xo.eu.org/file/1748112951054_【哲风壁纸】二次元美女-唯美角色.png"
+  },
+  {
+    name: "八重神子 卧室场景",
+    url: "https://api.18xo.eu.org/file/1748112957103_【哲风壁纸】八重神子-卧室场景.png"
+  },
+  {
+    name: "写实插画 冷白皮 女孩",
+    url: "https://api.18xo.eu.org/file/1748112954602_【哲风壁纸】写实插画-冷白皮.png"
+  },
+  {
+    name: "水元素 泳池 女孩",
+    url: "https://api.18xo.eu.org/file/1748112948471_【哲风壁纸】水元素-泳池.png"
+  },
+  {
+    name: "性感角色 金克斯 游戏角色",
+    url: "https://api.18xo.eu.org/file/1748112949402_【哲风壁纸】性感角色-游戏角色.png"
+  },
+  {
+    name: "个性装扮 红发女孩 动漫角色",
+    url: "https://api.18xo.eu.org/file/1748112954018_【哲风壁纸】个性装扮-动漫角色.png"
+  },
+  {
     name: "居家 女孩 电脑 壁纸",
     url: "https://api.18xo.eu.org/file/1748106846639_45864.png"
   },
