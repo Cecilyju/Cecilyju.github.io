@@ -43,6 +43,29 @@ body {
   background-color: #0056b3;
 }
 
+.thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.05);
+}
+
+.thumbnails img {
+  width: 160px;
+  height: 120px;
+  margin: 5px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.thumbnails img:hover {
+  border-color: #007bff;
+}
+
 footer {
   background-color: #f9f9f9;
   color: #666;
@@ -50,7 +73,7 @@ footer {
   font-size: 14px;
 }
 
-/* 响应式适配 */
+/* 鍝嶅簲寮忛€傞厤 */
 @media screen and (max-width: 768px) {
   .carousel img {
     max-height: 50vh;
