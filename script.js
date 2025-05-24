@@ -5,6 +5,242 @@ const wallpapers = [
     url: "https://api.18xo.eu.org/file/1747823385782_43634.png"
   },
   {
+    name: "二次元 游戏 原神",
+    url: "https://api.18xo.eu.org/file/1748087202211_46691.png"
+  },
+  {
+    name: "居家 清纯 女孩 美女",
+    url: "https://api.18xo.eu.org/file/1748087201489_46578.png"
+  },
+  {
+    name: "动漫 阿尼亚 4k电脑 壁纸",
+    url: "https://api.18xo.eu.org/file/1745299353122_动漫阿尼亚4k电脑壁纸_彼岸图网.jpg"
+  },
+  {
+    name: "古风 蓝衣少女 旗袍 4K壁纸",
+    url: "https://api.18xo.eu.org/file/1745299346929_古风蓝衣少女4K壁纸3840_2400_彼岸图网.jpg"
+  },
+  {
+    name: "初音 未来 MIKU 二次元",
+    url: "https://api.18xo.eu.org/file/1748087214237_47124.png"
+  },
+  {
+    name: "二次元 粉色 恶魔翅膀 美少女",
+    url: "https://api.18xo.eu.org/file/1748087197998_46950.png"
+  },
+  {
+    name: "二次元 长剑 纹身女孩",
+    url: "https://api.18xo.eu.org/file/1748087206026_46853.png"
+  },
+  {
+    name: "二次元 粉色长发 美少女",
+    url: "https://api.18xo.eu.org/file/1748087199998_46851.png"
+  },
+  {
+    name: "二次元 朋克风 初音 未来",
+    url: "https://api.18xo.eu.org/file/1748087198417_47097.png"
+  },
+  {
+    name: "二次元 居家 清纯 少女",
+    url: "https://api.18xo.eu.org/file/1748087217901_47521.png"
+  },
+  {
+    name: "二次元 动漫 女孩 少女",
+    url: "https://api.18xo.eu.org/file/1748087216146_47520.png"
+  },
+  {
+    name: "二次元 动漫 美少女 女孩 4K",
+    url: "https://api.18xo.eu.org/file/1748087221167_47212.png"
+  },
+  {
+    name: "二次元 少女 雨伞女孩",
+    url: "https://api.18xo.eu.org/file/1748087211976_47729.png"
+  },
+  {
+    name: "二次元 美少女 4K壁纸",
+    url: "https://api.18xo.eu.org/file/1748087225250_47781.png"
+  },
+  {
+    name: "二次元 性感美女 红唇",
+    url: "https://api.18xo.eu.org/file/1748087217869_47541.png"
+  },
+  {
+    name: "二次元 性感 美少女 居家",
+    url: "https://api.18xo.eu.org/file/1748087221544_47530.png"
+  },
+  {
+    name: "二次元 气质 美女",
+    url: "https://api.18xo.eu.org/file/1748087219342_47526.png"
+  },
+  {
+    name: "二次元 女鬼 美少女",
+    url: "https://api.18xo.eu.org/file/1748087211638_47522.png"
+  },
+  {
+    name: "二次元 星星眼 少女",
+    url: "https://api.18xo.eu.org/file/1748087224315_48400.png"
+  },
+  {
+    name: "二次元 朋克风 少女",
+    url: "https://api.18xo.eu.org/file/1748087225507_48399.png"
+  },
+  {
+    name: "二次元 被单 少女",
+    url: "https://api.18xo.eu.org/file/1748087217578_48173.png"
+  },
+  {
+    name: "二次元 银发 少女 女孩",
+    url: "https://api.18xo.eu.org/file/1748087218120_47789.png"
+  },
+  {
+    name: "居家 女孩 黑丝",
+    url: "https://api.18xo.eu.org/file/1748087231684_48894.png"
+  },
+  {
+    name: "沙漠 女孩 玫瑰",
+    url: "https://api.18xo.eu.org/file/1748087227923_48603.png"
+  },
+  {
+    name: "报纸图 美女 4K",
+    url: "https://api.18xo.eu.org/file/1748087233975_47783.png"
+  },
+  {
+    name: "鞠婧祎 4K壁纸",
+    url: "https://api.18xo.eu.org/file/1748087226093_46585.png"
+  },
+  {
+    name: "地铁 女孩 长发",
+    url: "https://api.18xo.eu.org/file/1748087224930_46237.png"
+  },
+  {
+    name: "二次元 少女 兽娘",
+    url: "https://api.18xo.eu.org/file/1748087229477_48901.png"
+  },
+  {
+    name: "二次元 兽耳美女",
+    url: "https://api.18xo.eu.org/file/1748087222356_48891.png"
+  },
+  {
+    name: "女孩 短裙 白色",
+    url: "https://api.18xo.eu.org/file/1748087230259_49186.png"
+  },
+  {
+    name: "书桌 睡觉 女孩",
+    url: "https://api.18xo.eu.org/file/1748087232141_49187.png"
+  },
+  {
+    name: "二次元 长发 丰满",
+    url: "https://api.18xo.eu.org/file/1748087233934_49170.png"
+  },
+  {
+    name: "鞠婧祎 黑色 裙子",
+    url: "https://api.18xo.eu.org/file/1748087230575_49169.png"
+  },
+  {
+    name: "Cosplay 女孩 修女",
+    url: "https://api.18xo.eu.org/file/1748087234876_48985.png"
+  },
+  {
+    name: "美女 雨伞",
+    url: "https://api.18xo.eu.org/file/1748087244522_49236.png"
+  },
+  {
+    name: "文字 壁纸 4K",
+    url: "https://api.18xo.eu.org/file/1748087240730_49243.png"
+  },
+  {
+    name: "女孩 河边 月亮",
+    url: "https://api.18xo.eu.org/file/1748087354738_46204.png"
+  },
+  {
+    name: "花朵 太阳 4K壁纸",
+    url: "https://api.18xo.eu.org/file/1748087360724_46199.png"
+  },
+  {
+    name: "Cosplay 女孩 蓝色,
+    url: "https://api.18xo.eu.org/file/1748087351899_49237.png"
+  },
+  {
+    name: "二次元 犬夜叉",
+    url: "https://api.18xo.eu.org/file/1748087358642_45967.png"
+  },
+  {
+    name: "居家 二次元 少女",
+    url: "https://api.18xo.eu.org/file/1748087269206_49180.png"
+  },
+  {
+    name: "二次元 帽子女孩",
+    url: "https://api.18xo.eu.org/file/1748087274428_49128.png"
+  },
+  {
+    name: "MIKU 二次元 初音",
+    url: "https://api.18xo.eu.org/file/1748087277925_49185.png"
+  },
+  {
+    name: "二次元 居家 少女",
+    url: "https://api.18xo.eu.org/file/1748087361946_49184.png"
+  },
+  {
+    name: "Cosplay 蓝发少女",
+    url: "https://api.18xo.eu.org/file/1748087360011_48773.jpg"
+  },
+    {
+    name: "窗户 女孩",
+    url: "https://api.18xo.eu.org/file/1748087365121_48190.png"
+  },
+    {
+    name: "跳舞 女孩",
+    url: "https://api.18xo.eu.org/file/1748087261887_45882.png"
+  },
+    {
+    name: "鞠婧祎 美女",
+    url: "https://api.18xo.eu.org/file/1748087366283_47347.png"
+  },
+    {
+    name: "二次元 你豆子",
+    url: "https://api.18xo.eu.org/file/1748087258466_48185.png"
+  },
+    {
+    name: "二次元 女孩 草帽",
+    url: "https://api.18xo.eu.org/file/1748087265216_48183.png"
+  },
+    {
+    name: "二次元 少女 阿尼亚",
+    url: "https://api.18xo.eu.org/file/1748087365180_47701.png"
+  },
+    {
+    name: "二次元 性感美女",
+    url: "https://api.18xo.eu.org/file/1748087257465_47394.png"
+  },
+    {
+    name: "二次元 蓝发美少女",
+    url: "https://api.18xo.eu.org/file/1748087364516_47381.png"
+  },
+    {
+    name: "二次元 持剑 少女 纹身",
+    url: "https://api.18xo.eu.org/file/1748087356541_47360.png"
+  },
+    {
+    name: "二次元 持剑 帅气 少女",
+    url: "https://api.18xo.eu.org/file/1748087256473_47352.png"
+  },
+    {
+    name: "二次元 居家 美少女 玩偶",
+    url: "https://api.18xo.eu.org/file/1748087249686_47350.png"
+  },
+    {
+    name: "初音未来 长发 MiKu 二次元",
+    url: "https://api.18xo.eu.org/file/1748087352956_49246.png"
+  },
+    {
+    name: "二次元 女孩 少女",
+    url: "https://api.18xo.eu.org/file/1748087243054_47348.png"
+  },
+    {
+    name: "居家 美女 沙发",
+    url: "https://api.18xo.eu.org/file/1748087354475_49238.png"
+  },
+  {
     name: "优雅长裙美女杨幂",
     url: "https://api.18xo.eu.org/file/1748051997990_优雅长裙美女杨幂4K手机壁纸图片_彼岸图网.jpg"
   },
