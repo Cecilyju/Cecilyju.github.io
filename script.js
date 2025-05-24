@@ -1,4 +1,5 @@
-const images = [
+// 模拟壁纸数据（你可以换成从 JSON 或 API 加载）
+const wallpapers = [
   {
     name: "冷艳少女",
     url: "https://api.18xo.eu.org/file/1747823385782_43634.png"
@@ -506,77 +507,57 @@ const images = [
   }
 ];
 
-let currentIndex = 0;
-let intervalId = null;
-
 const mainImage = document.getElementById("main-image");
 const imageName = document.getElementById("image-name");
 const resolution = document.getElementById("resolution");
 const downloadBtn = document.getElementById("download-btn");
 const thumbnailsContainer = document.getElementById("thumbnails-container");
 
-function initializeImages() {
-  images.forEach((img) => {
-    img.thumbnail = img.url;
-  });
+// 加载主图
+function loadMainImage(wallpaper) {
+  mainImage.src = wallpaper.url;
+  imageName.textContent = wallpaper.name;
+  resolution.textContent = "分辨率检测中...";
+  downloadBtn.href = wallpaper.url;
 
-  renderThumbnails();
-  updateImage(0);
-  startAutoPlay();
-}
-
-function updateImage(index) {
-  const imgData = images[index];
-  mainImage.src = imgData.url;
-  imageName.textContent = imgData.name;
-  downloadBtn.href = imgData.url;
-
-  const tempImg = new Image();
-  tempImg.onload = () => {
-    resolution.textContent = `${tempImg.width}×${tempImg.height}`;
+  // 加载完成后获取实际分辨率
+  mainImage.onload = () => {
+    resolution.textContent = `${mainImage.naturalWidth} × ${mainImage.naturalHeight}`;
   };
-  tempImg.src = imgData.url;
 }
 
+// 加载缩略图
 function renderThumbnails() {
   thumbnailsContainer.innerHTML = "";
-  images.forEach((img, index) => {
+  wallpapers.forEach((wallpaper, index) => {
     const thumb = document.createElement("img");
-    thumb.src = img.thumbnail;
-    thumb.alt = img.name;
-    thumb.onclick = () => {
-      currentIndex = index;
-      updateImage(index);
-      restartAutoPlay();
-    };
+    thumb.src = wallpaper.url;
+    thumb.alt = wallpaper.name;
+    thumb.title = wallpaper.name;
+
+    thumb.addEventListener("click", () => {
+      loadMainImage(wallpapers[index]);
+    });
+
     thumbnailsContainer.appendChild(thumb);
   });
 }
 
-function startAutoPlay() {
-  intervalId = setInterval(() => {
-    currentIndex = (currentIndex + 1) % images.length;
-    updateImage(currentIndex);
-  }, 5000);
-}
-
-function restartAutoPlay() {
-  clearInterval(intervalId);
-  startAutoPlay();
-}
-
-initializeImages();
+// 缩略图显示模式切换
 const toggleBtn = document.getElementById("toggle-mode");
-const thumbGrid = document.getElementById("thumbnails-container");
 
 toggleBtn.addEventListener("click", () => {
-  if (thumbGrid.classList.contains("fill-mode")) {
-    thumbGrid.classList.remove("fill-mode");
-    thumbGrid.classList.add("cover-mode");
+  if (thumbnailsContainer.classList.contains("fill-mode")) {
+    thumbnailsContainer.classList.remove("fill-mode");
+    thumbnailsContainer.classList.add("cover-mode");
     toggleBtn.textContent = "切换为变形模式";
   } else {
-    thumbGrid.classList.remove("cover-mode");
-    thumbGrid.classList.add("fill-mode");
+    thumbnailsContainer.classList.remove("cover-mode");
+    thumbnailsContainer.classList.add("fill-mode");
     toggleBtn.textContent = "切换为裁切模式";
   }
 });
+
+// 初始化
+renderThumbnails();
+loadMainImage(wallpapers[0]);
