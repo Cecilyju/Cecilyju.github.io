@@ -508,27 +508,18 @@ const images = [
 
 let currentIndex = 0;
 let intervalId = null;
-let hideInfoTimeout = null;
 
 const mainImage = document.getElementById("main-image");
 const imageName = document.getElementById("image-name");
 const resolution = document.getElementById("resolution");
 const downloadBtn = document.getElementById("download-btn");
 const thumbnailsContainer = document.getElementById("thumbnails-container");
-const infoBox = document.querySelector(".info");
-
-// 自动隐藏信息栏逻辑
-function startInfoAutoHide() {
-  clearTimeout(hideInfoTimeout);
-  infoBox.classList.remove("hidden");
-  hideInfoTimeout = setTimeout(() => {
-    infoBox.classList.add("hidden");
-  }, 4000);
-}
-
-document.body.addEventListener("mousemove", startInfoAutoHide);
 
 function initializeImages() {
+  images.forEach((img) => {
+    img.thumbnail = img.url;
+  });
+
   renderThumbnails();
   updateImage(0);
   startAutoPlay();
@@ -539,7 +530,6 @@ function updateImage(index) {
   mainImage.src = imgData.url;
   imageName.textContent = imgData.name;
   downloadBtn.href = imgData.url;
-  startInfoAutoHide();
 
   const tempImg = new Image();
   tempImg.onload = () => {
@@ -552,7 +542,7 @@ function renderThumbnails() {
   thumbnailsContainer.innerHTML = "";
   images.forEach((img, index) => {
     const thumb = document.createElement("img");
-    thumb.src = img.url;
+    thumb.src = img.thumbnail;
     thumb.alt = img.name;
     thumb.onclick = () => {
       currentIndex = index;
@@ -576,18 +566,3 @@ function restartAutoPlay() {
 }
 
 initializeImages();
-
-// 夜间模式切换
-document.getElementById("toggle-theme").onclick = () => {
-  document.body.classList.toggle("dark-mode");
-};
-
-// 点击图片放大查看
-mainImage.addEventListener("click", () => {
-  const modal = document.createElement("div");
-  modal.className = "modal";
-  modal.innerHTML = `<img src="${mainImage.src}" alt="Zoomed" />`;
-  modal.onclick = () => document.body.removeChild(modal);
-  document.body.appendChild(modal);
-  modal.style.display = "flex";
-});
