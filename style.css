@@ -52,20 +52,7 @@ body {
   background-color: #0056b3;
 }
 
-/* 缩略图显示模式切换按钮 */
-.mode-toggle {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 15px;
-  padding: 8px 16px;
-  background-color: #eee;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 14px;
-}
-
-/* 缩略图网格布局（CSS Grid） */
+/* 缩略图网格布局（仅裁切模式） */
 .thumbnails-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
@@ -75,11 +62,11 @@ body {
   margin: 0 auto;
 }
 
-/* 通用缩略图样式 */
 .thumbnails-grid img {
   width: 100%;
   height: 100%;
   aspect-ratio: 4 / 3;
+  object-fit: cover; /* 仅保留裁剪模式 */
   border-radius: 6px;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -87,16 +74,6 @@ body {
 
 .thumbnails-grid img:hover {
   transform: scale(1.03);
-}
-
-/* 裁切模式：object-fit: cover */
-.thumbnails-grid.cover-mode img {
-  object-fit: cover;
-}
-
-/* 变形模式：object-fit: fill */
-.thumbnails-grid.fill-mode img {
-  object-fit: fill;
 }
 
 /* 页脚 */
@@ -115,9 +92,5 @@ footer {
 
   .subtitle {
     font-size: 1em;
-  }
-
-  .mode-toggle {
-    font-size: 0.9em;
   }
 }
