@@ -1,6 +1,10 @@
 // 壁纸列表（使用外链图源）
 const wallpapers = [
   {
+    name: "高清壁纸 4K 手机 电脑",
+    url: "https://api.18xo.eu.org/random?type=img"
+  },
+  {
     name: "个性写真 时尚少女",
     url: "https://api.18xo.eu.org/file/1748112941513_【哲风壁纸】个性写真-时尚少女.png"
   },
